@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  display: flex;
+  /* display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
-.pulse {
+/* .pulse {
   animation: pulse 2s infinite;
 }
 
@@ -25,4 +25,19 @@ body {
     transform: scale(1);
     opacity: 1;
   }
+} */
+
+.hero-section {
+  padding: 3rem 2rem;
+  background-color: #f8f9fa;
+}
+.hero-image {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: white;
+}
+.dis-link {
+  color: rgb(216, 216, 216);
 }
